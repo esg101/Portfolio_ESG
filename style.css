@@ -1,1 +1,247 @@
-body
+.portfolio-sections{
+
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.navigator{
+
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    font-size: 20px;
+    
+}
+.portfolio-sections h1{
+
+    margin-top: 70px;
+}
+html{
+    scroll-behavior: smooth;
+
+}    
+.main-container{
+
+    position: relative;
+    top: 75px;
+}
+.dropdown-menu{
+
+    color: rgb(15, 9, 59);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+
+}
+.brand{
+
+    font-size: 30px;
+    color: rgb(185, 16, 67);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin-left: 15px;
+    
+}
+.navmenu{
+
+    color: rgb(185, 16, 67);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-left: 1px;
+    transition-duration: 0.7s;
+    
+
+}
+.navmenu:hover{
+
+    text-decoration: underline 1px;
+    text-underline-offset: 3px;
+    color:  rgb(195, 231, 237);
+    -webkit-text-stroke: 0.5px rgb(218, 217, 217);
+
+}
+.tracking-in-expand{
+
+    -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+            animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+ @-webkit-keyframes tracking-in-expand{
+  0% {
+     letter-spacing: -0.5em;
+     opacity: 0.6;
+      
+  }
+  40% {
+    opacity: 0.6;
+      
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+#Home {
+    
+    height: 700px;
+    background-image: url("https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:100% 60%;
+    background-color: white;
+    border: none;
+   
+   
+    
+    
+}
+#home-info{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 270px;
+    font-size: 25px;
+    margin-top: 220px;
+    margin-left: 39%;
+    /* background-color: rgb(60, 57, 57);  */
+    background-color: rgba(42, 41, 41, 0.3); 
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    height: 105%;
+    width: 100%;
+    padding: 240px;
+    text-align: center;
+    line-height: 37px;
+}
+.home-cover{
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-size:100%;
+    
+}
+.info{
+    font-weight: bolder;
+    color:rgb(218, 217, 217);
+  
+    
+}
+.designation{
+    color: rgb(218, 217, 217);
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: end;
+    
+}
+.myname{
+    font-size: 35px;
+    
+}
+.rsmbtn{
+    height: 40px;
+    width: 150px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(41, 73, 168);
+    color: white;
+    transition-duration: 1s;
+   
+}
+.rsmbtn:hover{
+    background-color: rgb(25, 24, 24);
+    color: rgb(185, 16, 67);
+    border-color: aliceblue;
+    transform: scale(1.1);
+   
+   
+    
+}
+
+.rsmbtn .comment {
+    display: none;
+  }
+  
+.rsmbtn:hover .replies {
+    display: none;
+  }
+  
+.rsmbtn:hover .comment {
+    display: inline;
+  }
+
+.about-section{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(195, 231, 237);
+}
+
+.aboutmain{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: border;
+}
+
+.aboutmain div{
+    height: 500px;
+    width: 50%;
+    
+}
+
+.minion{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 90px;
+    animation-duration: 4s;
+    animation-name: zoom;
+    animation-iteration-count: 1;
+}
+
+@keyframes zoom {
+    100%{
+        transform: scale(1.2);
+        border-radius: 60px;
+
+    }
+    
+}
+
+.heading{
+    font-family: Arial black;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    color: blue;
+}
+
+.carrerob{
+    padding: 30px;
+}
+
+.carrerinfo{
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 70px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
